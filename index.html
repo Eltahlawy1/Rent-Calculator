@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حاسبة الإيجارات القديمة - طبقاً للقوانين المصرية</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-calculator me-2"></i>
+                حاسبة الإيجارات القديمة
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" onclick="showSection('residential', event)">
+                            <i class="fas fa-home me-1"></i>
+                            الإيجار السكني
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showSection('commercial', event)">
+                            <i class="fas fa-store me-1"></i>
+                            الإيجار التجاري
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-12">
+                <div class="alert alert-info">
+                    <h5><i class="fas fa-info-circle me-2"></i>تنويه هام</h5>
+                    <p class="mb-0">هذا الحاسبة مخصصة للعقود المبرمة قبل 31/1/1996 فقط، طبقاً للقوانين المصرية النافذة.
+                    </p>
+                </div>
+
+                <div class="text-center mb-4">
+                    <h2 class="text-primary mb-3">حاسبة الإيجارات القديمة</h2>
+                    <p class="lead text-muted">احسب إيجارك القديم بسهولة ودقة طبقاً للقوانين المصرية</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Residential Section -->
+        <div id="residential-section" class="section">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card shadow">
+                        <div class="card-header bg-success text-white">
+                            <h4 class="mb-0">
+                                <i class="fas fa-home me-2"></i>
+                                حاسبة الإيجار السكني
+                            </h4>
+                        </div>
+                        <div class="card-body">
+                            <form id="residential-form">
+                                <div class="mb-3">
+                                    <label for="residential-rent" class="form-label">قيمة الإيجار في العقد
+                                        (جنيه)</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text">جنيه</span>
+                                        <input type="number" class="form-control" id="residential-rent" min="1" required
+                                            placeholder="أدخل قيمة الإيجار الأصلية">
+                                    </div>
+                                    <small class="form-text text-muted">الحد الأدنى يعتمد على الفئة المختارة</small>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="residential-date" class="form-label">تاريخ العقد</label>
+                                    <input type="date" class="form-control" id="residential-date" max="1996-01-30"
+                                        required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="residential-category" class="form-label">الفئة</label>
+                                    <select class="form-select" id="residential-category" required>
+                                        <option value="">اختر الفئة...</option>
+                                        <option value="economic">الفئة الاقتصادية (الحد الأدنى 250 جنيه)</option>
+                                        <option value="medium">الفئة المتوسطة (الحد الأدنى 400 جنيه)</option>
+                                        <option value="premium">الفئة المتميزة (الحد الأدنى 1000 جنيه)</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="residential-notes" class="form-label">ملاحظات</label>
+                                    <textarea class="form-control" id="residential-notes" rows="3"
+                                        placeholder="أضف أي ملاحظات إضافية حول العقد أو العقار..."></textarea>
+                                </div>
+
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-success btn-lg">
+                                        <i class="fas fa-calculator me-2"></i>
+                                        احسب الإيجار
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div id="residential-result" class="card mt-4 d-none">
+                        <div class="card-header bg-info text-white">
+                            <h5 class="mb-0">نتيجة الحساب</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="residential-result-content"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Commercial Section -->
+        <div id="commercial-section" class="section d-none">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card shadow">
+                        <div class="card-header bg-warning text-dark">
+                            <h4 class="mb-0">
+                                <i class="fas fa-store me-2"></i>
+                                حاسبة الإيجار التجاري
+                            </h4>
+                        </div>
+                        <div class="card-body">
+                            <form id="commercial-form">
+                                <div class="mb-3">
+                                    <label for="commercial-rent" class="form-label">قيمة الإيجار في العقد (جنيه)</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text">جنيه</span>
+                                        <input type="number" class="form-control" id="commercial-rent" min="1" required
+                                            placeholder="أدخل قيمة الإيجار الأصلية">
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="construction-date" class="form-label">تاريخ إنشاء العقار</label>
+                                    <select class="form-select" id="construction-date" required>
+                                        <option value="">اختر تاريخ الإنشاء...</option>
+                                        <option value="before-1944">قبل 1/1/1944</option>
+                                        <option value="1944-1961">من 1/1/1944 إلى 4/11/1961</option>
+                                        <option value="1961-1973">من 5/11/1961 إلى 6/10/1973</option>
+                                        <option value="1973-1977">من 7/10/1973 إلى 9/9/1977</option>
+                                        <option value="after-1977">من 10/9/1977 إلى 30/1/1996</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="contract-date" class="form-label">تاريخ العقد</label>
+                                    <input type="date" class="form-control" id="contract-date" max="1996-01-30"
+                                        required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="commercial-notes" class="form-label">ملاحظات</label>
+                                    <textarea class="form-control" id="commercial-notes" rows="3"
+                                        placeholder="أضف أي ملاحظات إضافية حول العقد أو العقار..."></textarea>
+                                </div>
+
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-warning btn-lg text-dark">
+                                        <i class="fas fa-calculator me-2"></i>
+                                        احسب الإيجار
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div id="commercial-result" class="card mt-4 d-none">
+                        <div class="card-header bg-info text-white">
+                            <h5 class="mb-0">نتيجة الحساب</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="commercial-result-content"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white mt-5 py-4">
+        <div class="container text-center">
+            <p>&copy; 2025 حاسبة الإيجارات القديمة. جميع الحقوق محفوظة.</p>
+            <p class="small">Design by Ibrahim Eltahlawy</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/calculator.js"></script>
+</body>
+
+</html>
