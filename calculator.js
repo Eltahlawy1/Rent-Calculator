@@ -1,1 +1,432 @@
-const _0x397459=_0x3788;(function(_0x432698,_0x4c1016){const _0x444a06=_0x3788,_0x538aaa=_0x432698();while(!![]){try{const _0x2e7283=-parseInt(_0x444a06(0x199))/0x1*(-parseInt(_0x444a06(0x15c))/0x2)+parseInt(_0x444a06(0x1a6))/0x3+parseInt(_0x444a06(0x14e))/0x4+-parseInt(_0x444a06(0x172))/0x5*(parseInt(_0x444a06(0x180))/0x6)+-parseInt(_0x444a06(0x156))/0x7*(-parseInt(_0x444a06(0x14c))/0x8)+-parseInt(_0x444a06(0x1b8))/0x9+parseInt(_0x444a06(0x1aa))/0xa*(-parseInt(_0x444a06(0x198))/0xb);if(_0x2e7283===_0x4c1016)break;else _0x538aaa['push'](_0x538aaa['shift']());}catch(_0x12e723){_0x538aaa['push'](_0x538aaa['shift']());}}}(_0x5502,0x39cc3));function showSection(_0x20b0e6,_0x1a4c2d){const _0x594399=_0x3788;document[_0x594399(0x1bb)](_0x594399(0x163))['forEach'](_0x1e43ee=>{const _0xdf7dd7=_0x594399;_0x1e43ee['classList'][_0xdf7dd7(0x1b4)](_0xdf7dd7(0x185));}),document['getElementById'](_0x20b0e6+'-section')[_0x594399(0x149)][_0x594399(0x191)](_0x594399(0x185)),document[_0x594399(0x1bb)](_0x594399(0x148))[_0x594399(0x152)](_0x26fc9f=>{const _0x468d87=_0x594399;_0x26fc9f[_0x468d87(0x149)][_0x468d87(0x191)](_0x468d87(0x153));}),_0x1a4c2d&&_0x1a4c2d['target']&&_0x1a4c2d[_0x594399(0x145)]['classList'][_0x594399(0x1b4)](_0x594399(0x153));}function calculateResidentialRent(){const _0x52192c=_0x3788,_0x56541a=document[_0x52192c(0x17b)](_0x52192c(0x189));if(!_0x56541a[_0x52192c(0x1a7)]()){_0x56541a['reportValidity']();return;}const _0x14fbf6=document[_0x52192c(0x1b0)](_0x52192c(0x171)),_0x53b756=_0x14fbf6[_0x52192c(0x193)];_0x14fbf6['innerHTML']=_0x52192c(0x15f),_0x14fbf6[_0x52192c(0x1b9)]=!![],setTimeout(()=>{const _0x1d30a7=_0x52192c,_0x1fa868=parseFloat(document[_0x1d30a7(0x17b)](_0x1d30a7(0x16c))[_0x1d30a7(0x18b)]),_0x35db98=document[_0x1d30a7(0x17b)](_0x1d30a7(0x164))['value'],_0x36a554=new Date(document[_0x1d30a7(0x17b)](_0x1d30a7(0x18f))[_0x1d30a7(0x18b)]),_0x425474=document[_0x1d30a7(0x17b)](_0x1d30a7(0x1ae))[_0x1d30a7(0x18b)];let _0x191ca6,_0x27956f,_0x1f7500;switch(_0x35db98){case'economic':_0x191ca6=0xfa,_0x27956f=0xa,_0x1f7500='الفئة\x20الاقتصادية';break;case _0x1d30a7(0x179):_0x191ca6=0x190,_0x27956f=0xa,_0x1f7500=_0x1d30a7(0x17d);break;case _0x1d30a7(0x184):_0x191ca6=0x3e8,_0x27956f=0x14,_0x1f7500=_0x1d30a7(0x16d);break;}let _0x2c34a1=Math['max'](_0x1fa868*_0x27956f,_0x191ca6),_0x21e914=_0x2c34a1;const _0x11b601=new Date();if(_0x11b601>=new Date(_0x1d30a7(0x146)))for(let _0x4e08a0=0x7ea;_0x4e08a0<=_0x11b601[_0x1d30a7(0x173)]();_0x4e08a0++){_0x21e914*=1.15;}const _0x34ad83={'originalRent':_0x1fa868,'category':_0x1f7500,'baseRent':_0x2c34a1,'currentRent':Math[_0x1d30a7(0x182)](_0x21e914),'multiplier':_0x27956f,'minRent':_0x191ca6,'notes':_0x425474};displayResidentialResults(_0x34ad83),_0x14fbf6['innerHTML']=_0x53b756,_0x14fbf6[_0x1d30a7(0x1b9)]=![];},0x1f4);}function _0x5502(){const _0x5ef5e5=['commercial-notes','810490xtsWBP','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>','commercial-form','1944-1961','residential-notes','construction-date','querySelector','split','1996-01-30','قبل\x201/1/1944','add','خمسة\x20أمثال\x20الأجرة\x20-\x20أماكن\x20منشأة\x20من\x201/1/1944\x20إلى\x204/11/1961','\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22table-container\x20mt-4\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6\x20class=\x22text-primary\x20mb-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-table\x20me-2\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20جدول\x20الزيادات\x20التفصيلي\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22table-responsive\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<table\x20class=\x22table\x20table-striped\x20table-hover\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<thead\x20class=\x22table-dark\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>السنة</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>القيمة\x20قبل\x20الزيادة</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>نسبة\x20الزيادة</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>القيمة\x20بعد\x20الزيادة</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th>الملاحظات</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</thead>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tbody>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','toLocaleString','311913WPhMLW','disabled','toISOString','querySelectorAll','max','target','2026-09-01','من\x201/1/1944\x20إلى\x204/11/1961','.nav-link','classList','submit','2025-09-01','87944DkLPjn','\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','1187960jaCdzW','\x20جنيه\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22result-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>تاريخ\x20إنشاء\x20العقار:</strong>\x20','زيادة\x2010%\x20-\x20أماكن\x20منشأة\x20من\x2010/9/1977\x20إلى\x2030/1/1996','</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td><small>','forEach','active','</small></td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22result-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>معامل\x20الزيادة:</strong>\x20','14PzHNZf','preventDefault','زيادة\x20سنوية\x2010%\x20-\x2026\x20مارس\x20','ثلاثة\x20أمثال\x20الأجرة\x20-\x20أماكن\x20منشأة\x20من\x207/10/1973\x20إلى\x209/9/1977','constructionPeriod','minRent','3736XmeQaA','currentRent','length','<i\x20class=\x22fas\x20fa-spinner\x20fa-spin\x20me-2\x22></i>جاري\x20الحساب...','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22result-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>الملاحظات:</strong>\x20','15%','commercial-rent','.section','residential-category','afterIncrease','1997','commercial-result','من\x2010/9/1977\x20إلى\x2030/1/1996','contract-date','1997-03-26','scrollIntoView','residential-rent','الفئة\x20المتميزة','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22result-section\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h5\x20class=\x22text-warning\x20mb-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-calculator\x20me-2\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20نتائج\x20حساب\x20الإيجار\x20التجاري\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</h5>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22result-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>قيمة\x20الإيجار\x20الأصلية:</strong>\x20','\x20جنيه\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22result-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>الإيجار\x20بعد\x20تطبيق\x20المعامل:</strong>\x20','سبتمبر\x202025','#residential-form\x20button[type=\x22submit\x22]','1862715znZDkb','getFullYear','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','ثمانية\x20أمثال\x20الأجرة\x20-\x20أماكن\x20منشأة\x20قبل\x201/1/1944','notes','commercial-result-content','\x20-\x20سنة\x202025','medium','residential-result','getElementById','#commercial-form\x20button[type=\x22submit\x22]','الفئة\x20المتوسطة','originalRent','خماسية\x20(×5)','6UMloqS','year','round','<tr><td\x20colspan=\x225\x22\x20class=\x22text-center\x22>لا\x20توجد\x20زيادات\x20لعرضها</td></tr>','premium','d-none','smooth','زيادة\x20سنوية\x201%\x20طبقاً\x20للقانون\x2014\x20لسنة\x202001','زيادة\x20سنوية\x202%\x20طبقاً\x20للقانون\x2014\x20لسنة\x202001','residential-form','1973-1977','value','addEventListener','</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>','multiplier','residential-date','\x20جنيه\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','remove','10%','innerHTML','increasePercent','2025-04-01','increaseHistory','من\x205/11/1961\x20إلى\x206/10/1973','11RvGWoP','198dkcpKP','reportValidity','\x20أضعاف\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22result-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>الحد\x20الأدنى\x20للفئة:</strong>\x20','after-1977','before-1944','push','زيادة\x20خماسية\x20-\x201\x20سبتمبر\x202025\x20(قانون\x20164\x20لسنة\x202025)','\x20جنيه\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22result-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>الإيجار\x20الأساسي\x20(بعد\x20تطبيق\x20الحد\x20الأدنى):</strong>\x20','\x20(قانون\x20164\x20لسنة\x202025)','baseRent','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22result-section\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h5\x20class=\x22text-success\x20mb-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-calculator\x20me-2\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20نتائج\x20حساب\x20الإيجار\x20السكني\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</h5>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22result-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>قيمة\x20الإيجار\x20الأصلية:</strong>\x20','toString','\x20جنيه\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22result-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>الفئة:</strong>\x20','108444xwrRoT','checkValidity','toFixed'];_0x5502=function(){return _0x5ef5e5;};return _0x5502();}function calculateCommercialRent(){const _0x4f416b=_0x3788,_0xf744f8=document[_0x4f416b(0x17b)](_0x4f416b(0x1ac));if(!_0xf744f8[_0x4f416b(0x1a7)]()){_0xf744f8[_0x4f416b(0x19a)]();return;}const _0x3c02a6=document[_0x4f416b(0x1b0)](_0x4f416b(0x17c)),_0x5f3319=_0x3c02a6[_0x4f416b(0x193)];_0x3c02a6[_0x4f416b(0x193)]=_0x4f416b(0x15f),_0x3c02a6[_0x4f416b(0x1b9)]=!![],setTimeout(()=>{const _0x5bc62d=_0x4f416b,_0x2ff9ad=parseFloat(document['getElementById'](_0x5bc62d(0x162))[_0x5bc62d(0x18b)]),_0x3c6da3=document[_0x5bc62d(0x17b)](_0x5bc62d(0x1af))[_0x5bc62d(0x18b)],_0xacd30b=new Date(document[_0x5bc62d(0x17b)](_0x5bc62d(0x169))[_0x5bc62d(0x18b)]),_0x58049b=document[_0x5bc62d(0x17b)](_0x5bc62d(0x1a9))[_0x5bc62d(0x18b)],_0x3166e3=new Date();let _0x4805fb=_0x2ff9ad;const _0x53a646=[];if(_0xacd30b<new Date(_0x5bc62d(0x16a))){let _0x129622,_0x507c72;switch(_0x3c6da3){case _0x5bc62d(0x19d):_0x129622=0x8,_0x507c72=_0x5bc62d(0x175);break;case'1944-1961':_0x129622=0x5,_0x507c72=_0x5bc62d(0x1b5);break;case'1961-1973':_0x129622=0x4,_0x507c72='أربعة\x20أمثال\x20الأجرة\x20-\x20أماكن\x20منشأة\x20من\x205/11/1961\x20إلى\x206/10/1973';break;case'1973-1977':_0x129622=0x3,_0x507c72=_0x5bc62d(0x159);break;case _0x5bc62d(0x19c):_0x129622=1.1,_0x507c72=_0x5bc62d(0x150);break;}const _0x41f0d9=_0x4805fb;_0x4805fb*=_0x129622,_0x53a646[_0x5bc62d(0x19e)]({'year':_0x5bc62d(0x166),'beforeIncrease':_0x41f0d9['toFixed'](0x2),'increasePercent':(_0x129622*0x64)[_0x5bc62d(0x1a8)](0x0)+'%','afterIncrease':_0x4805fb[_0x5bc62d(0x1a8)](0x2),'notes':_0x507c72+'\x20-\x2026\x20مارس\x201997\x20(قانون\x206\x20لسنة\x201997)'});for(let _0x28ffa2=0x7ce;_0x28ffa2<=0x7d0;_0x28ffa2++){const _0x2fecd5=_0x4805fb;_0x4805fb*=1.1,_0x53a646[_0x5bc62d(0x19e)]({'year':_0x28ffa2[_0x5bc62d(0x1a4)](),'beforeIncrease':_0x2fecd5[_0x5bc62d(0x1a8)](0x2),'increasePercent':_0x5bc62d(0x192),'afterIncrease':_0x4805fb[_0x5bc62d(0x1a8)](0x2),'notes':_0x5bc62d(0x158)+_0x28ffa2+'\x20(قانون\x206\x20لسنة\x201997)'});}}let _0x45098c,_0x3cc1cc;switch(_0x3c6da3){case _0x5bc62d(0x19d):case _0x5bc62d(0x1ad):case'1961-1973':case _0x5bc62d(0x18a):_0x45098c=0.02,_0x3cc1cc=_0x5bc62d(0x188);break;case'after-1977':_0x45098c=0.01,_0x3cc1cc=_0x5bc62d(0x187);break;}if(_0x3166e3>=new Date('2001-01-01'))for(let _0x336295=0x7d1;_0x336295<=0x7e8;_0x336295++){const _0x268ba3=_0x4805fb;_0x4805fb*=0x1+_0x45098c,_0x53a646['push']({'year':_0x336295['toString'](),'beforeIncrease':_0x268ba3['toFixed'](0x2),'increasePercent':(_0x45098c*0x64)['toFixed'](0x1)+'%','afterIncrease':_0x4805fb[_0x5bc62d(0x1a8)](0x2),'notes':_0x3cc1cc+'\x20-\x20سنة\x20'+_0x336295});}if(_0x3166e3>=new Date(_0x5bc62d(0x195))){const _0x8c7b3c=_0x4805fb;_0x4805fb*=0x1+_0x45098c,_0x53a646[_0x5bc62d(0x19e)]({'year':'أبريل\x202025','beforeIncrease':_0x8c7b3c[_0x5bc62d(0x1a8)](0x2),'increasePercent':(_0x45098c*0x64)['toFixed'](0x1)+'%','afterIncrease':_0x4805fb['toFixed'](0x2),'notes':_0x3cc1cc+_0x5bc62d(0x178)});}if(_0x3166e3>=new Date(_0x5bc62d(0x14b))){const _0xd97e8e=_0x4805fb;_0x4805fb*=0x5,_0x53a646['push']({'year':_0x5bc62d(0x170),'beforeIncrease':_0xd97e8e[_0x5bc62d(0x1a8)](0x2),'increasePercent':_0x5bc62d(0x17f),'afterIncrease':_0x4805fb[_0x5bc62d(0x1a8)](0x2),'notes':_0x5bc62d(0x19f)});if(_0x3166e3>=new Date(_0x5bc62d(0x146)))for(let _0x4abb18=0x7ea;_0x4abb18<=0x7ee;_0x4abb18++){const _0x39cd62=_0x4805fb;_0x4805fb*=1.15,_0x53a646[_0x5bc62d(0x19e)]({'year':_0x4abb18[_0x5bc62d(0x1a4)](),'beforeIncrease':_0x39cd62[_0x5bc62d(0x1a8)](0x2),'increasePercent':_0x5bc62d(0x161),'afterIncrease':_0x4805fb[_0x5bc62d(0x1a8)](0x2),'notes':'زيادة\x20سنوية\x2015%\x20-\x201\x20سبتمبر\x20'+_0x4abb18+_0x5bc62d(0x1a1)});}}const _0x294e1e={'originalRent':_0x2ff9ad,'currentRent':Math[_0x5bc62d(0x182)](_0x4805fb),'constructionPeriod':getConstructionPeriodName(_0x3c6da3),'increaseHistory':_0x53a646,'notes':_0x58049b};displayCommercialResults(_0x294e1e),_0x3c02a6[_0x5bc62d(0x193)]=_0x5f3319,_0x3c02a6[_0x5bc62d(0x1b9)]=![];},0x1f4);}function getConstructionPeriodName(_0x43b45f){const _0x3b3810=_0x3788,_0x30cc6b={'before-1944':_0x3b3810(0x1b3),'1944-1961':_0x3b3810(0x147),'1961-1973':_0x3b3810(0x197),'1973-1977':'من\x207/10/1973\x20إلى\x209/9/1977','after-1977':_0x3b3810(0x168)};return _0x30cc6b[_0x43b45f];}function _0x3788(_0x8e9741,_0x4a3234){_0x8e9741=_0x8e9741-0x144;const _0x55020b=_0x5502();let _0x37881e=_0x55020b[_0x8e9741];return _0x37881e;}function displayResidentialResults(_0x22f73a){const _0x91af3c=_0x3788,_0x1a40ca=document['getElementById'](_0x91af3c(0x17a)),_0x596820=document[_0x91af3c(0x17b)]('residential-result-content');_0x596820[_0x91af3c(0x193)]=_0x91af3c(0x1a3)+_0x22f73a[_0x91af3c(0x17e)][_0x91af3c(0x1b7)]()+_0x91af3c(0x1a5)+_0x22f73a['category']+_0x91af3c(0x155)+_0x22f73a[_0x91af3c(0x18e)]+_0x91af3c(0x19b)+_0x22f73a[_0x91af3c(0x15b)]['toLocaleString']()+_0x91af3c(0x16f)+(_0x22f73a['originalRent']*_0x22f73a['multiplier'])[_0x91af3c(0x1b7)]()+_0x91af3c(0x1a0)+_0x22f73a[_0x91af3c(0x1a2)]['toLocaleString']()+'\x20جنيه\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22result-item\x20total\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-money-bill-wave\x20me-2\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>الإيجار\x20النهائي\x20الشهري:</strong>\x20'+_0x22f73a[_0x91af3c(0x15d)][_0x91af3c(0x1b7)]()+_0x91af3c(0x190)+(_0x22f73a[_0x91af3c(0x176)]?_0x91af3c(0x160)+_0x22f73a[_0x91af3c(0x176)]+_0x91af3c(0x174):'')+_0x91af3c(0x14d),_0x1a40ca[_0x91af3c(0x149)][_0x91af3c(0x191)](_0x91af3c(0x185)),_0x1a40ca['scrollIntoView']({'behavior':_0x91af3c(0x186)});}function displayCommercialResults(_0x484fcc){const _0x16f6c7=_0x3788,_0x611074=document[_0x16f6c7(0x17b)](_0x16f6c7(0x167)),_0x1832ed=document[_0x16f6c7(0x17b)](_0x16f6c7(0x177));_0x1832ed['innerHTML']=_0x16f6c7(0x16e)+_0x484fcc['originalRent']['toLocaleString']()+_0x16f6c7(0x14f)+_0x484fcc[_0x16f6c7(0x15a)]+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22result-item\x20total\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-money-bill-wave\x20me-2\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>الإيجار\x20النهائي\x20الشهري:</strong>\x20'+_0x484fcc[_0x16f6c7(0x15d)][_0x16f6c7(0x1b7)]()+_0x16f6c7(0x190)+(_0x484fcc[_0x16f6c7(0x176)]?_0x16f6c7(0x160)+_0x484fcc[_0x16f6c7(0x176)]+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20':'')+_0x16f6c7(0x1b6)+generateCommercialIncreasesTable(_0x484fcc[_0x16f6c7(0x196)])+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tbody>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-info\x20mt-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6><i\x20class=\x22fas\x20fa-info-circle\x20me-2\x22></i>ملاحظات\x20هامة:</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<ul\x20class=\x22mb-0\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>تم\x20تطبيق\x20قوانين\x206\x20لسنة\x201997،\x2014\x20لسنة\x202001،\x20و164\x20لسنة\x202025</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>قانون\x206/1997:\x20أول\x20أجرة\x20مستحقة\x20بعد\x2026/3/1997\x20-\x20أضعال\x20حسب\x20تاريخ\x20الإنشاء،\x20وزيادة\x2010%\x20سنوياً\x20لمدة\x203\x20سنوات\x20(1998-2000)\x20تبدأ\x20من\x2026\x20مارس</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>قانون\x2014/2001:\x20زيادة\x20سنوية\x201%\x20أو\x202%\x20حسب\x20تاريخ\x20إنشاء\x20العقار\x20ابتداءً\x20من\x202001</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>قانون\x20164/2025:\x20زيادة\x202%\x20في\x20أبريل\x202025،\x20زيادة\x20خماسية\x20في\x20سبتمبر\x202025،\x20زيادة\x2015%\x20سنوياً\x20من\x20سبتمبر\x202026</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>ينتهي\x20عقد\x20الإيجار\x20بعد\x205\x20سنوات\x20من\x20تاريخ\x20الزيادة</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</ul>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20',_0x611074['classList'][_0x16f6c7(0x191)](_0x16f6c7(0x185)),_0x611074[_0x16f6c7(0x16b)]({'behavior':_0x16f6c7(0x186)});}function generateCommercialIncreasesTable(_0x1d787f){const _0x2ce2ad=_0x3788;if(!_0x1d787f||_0x1d787f[_0x2ce2ad(0x15e)]===0x0)return _0x2ce2ad(0x183);return _0x1d787f['map'](_0x2d023c=>{const _0x605afd=_0x2ce2ad;return _0x605afd(0x1ab)+_0x2d023c[_0x605afd(0x181)]+_0x605afd(0x18d)+_0x2d023c['beforeIncrease']+_0x605afd(0x18d)+_0x2d023c[_0x605afd(0x194)]+_0x605afd(0x18d)+_0x2d023c[_0x605afd(0x165)]+_0x605afd(0x151)+_0x2d023c[_0x605afd(0x176)]+_0x605afd(0x154);})['join']('');}document[_0x397459(0x18c)]('DOMContentLoaded',function(){const _0x57047a=_0x397459;document[_0x57047a(0x17b)](_0x57047a(0x189))[_0x57047a(0x18c)](_0x57047a(0x14a),function(_0x3dee62){const _0x372cc2=_0x57047a;_0x3dee62[_0x372cc2(0x157)](),calculateResidentialRent();}),document['getElementById']('commercial-form')[_0x57047a(0x18c)]('submit',function(_0x30322e){const _0x412cc9=_0x57047a;_0x30322e[_0x412cc9(0x157)](),calculateCommercialRent();});const _0x173932=new Date()[_0x57047a(0x1ba)]()[_0x57047a(0x1b1)]('T')[0x0];document['getElementById'](_0x57047a(0x18f))[_0x57047a(0x144)]='1996-01-30',document['getElementById']('contract-date')[_0x57047a(0x144)]=_0x57047a(0x1b2);});
+// Egyptian Rent Calculator
+// Handles both residential and commercial rent calculations according to Egyptian law
+
+// Navigation Functions
+function showSection(section, event) {
+    // Hide all sections
+    document.querySelectorAll('.section').forEach(sec => {
+        sec.classList.add('d-none');
+    });
+
+    // Show selected section
+    document.getElementById(section + '-section').classList.remove('d-none');
+
+    // Update navigation
+    document.querySelectorAll('.nav-link').forEach(link => {
+        link.classList.remove('active');
+    });
+
+    if (event && event.target) {
+        event.target.classList.add('active');
+    }
+}
+
+// Residential Rent Calculator
+function calculateResidentialRent() {
+    const form = document.getElementById('residential-form');
+    if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+    }
+
+    // Show loading state
+    const button = document.querySelector('#residential-form button[type="submit"]');
+    const originalText = button.innerHTML;
+    button.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>جاري الحساب...';
+    button.disabled = true;
+
+    setTimeout(() => {
+        const rent = parseFloat(document.getElementById('residential-rent').value);
+        const category = document.getElementById('residential-category').value;
+        const contractDate = new Date(document.getElementById('residential-date').value);
+        const notes = document.getElementById('residential-notes').value;
+
+        // Validate minimum rent based on category
+        let minRent, multiplier, categoryName;
+
+        switch (category) {
+            case 'economic':
+                minRent = 250;
+                multiplier = 10;
+                categoryName = 'الفئة الاقتصادية';
+                break;
+            case 'medium':
+                minRent = 400;
+                multiplier = 10;
+                categoryName = 'الفئة المتوسطة';
+                break;
+            case 'premium':
+                minRent = 1000;
+                multiplier = 20;
+                categoryName = 'الفئة المتميزة';
+                break;
+        }
+
+        // Apply minimum rent if applicable
+        let baseRent = Math.max(rent * multiplier, minRent);
+
+        // Apply annual increases starting from September 1, 2026
+        let currentRent = baseRent;
+        const currentDate = new Date();
+
+        // Apply 15% annual increases starting from September 1, 2026
+        if (currentDate >= new Date('2026-09-01')) {
+            for (let year = 2026; year <= currentDate.getFullYear(); year++) {
+                currentRent *= 1.15;
+            }
+        }
+
+        const results = {
+            originalRent: rent,
+            category: categoryName,
+            baseRent: baseRent,
+            currentRent: Math.round(currentRent),
+            multiplier: multiplier,
+            minRent: minRent,
+            notes: notes
+        };
+
+        displayResidentialResults(results);
+
+        // Restore button state
+        button.innerHTML = originalText;
+        button.disabled = false;
+    }, 500);
+}
+
+// Commercial Rent Calculator
+function calculateCommercialRent() {
+    const form = document.getElementById('commercial-form');
+    if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+    }
+
+    // Show loading state
+    const button = document.querySelector('#commercial-form button[type="submit"]');
+    const originalText = button.innerHTML;
+    button.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>جاري الحساب...';
+    button.disabled = true;
+
+    setTimeout(() => {
+        const originalRent = parseFloat(document.getElementById('commercial-rent').value);
+        const constructionPeriod = document.getElementById('construction-date').value;
+        const contractDate = new Date(document.getElementById('contract-date').value);
+        const notes = document.getElementById('commercial-notes').value;
+        const currentDate = new Date();
+
+        let currentRent = originalRent;
+        const increaseHistory = [];
+
+        // Law 6 of 1997 - Apply multiplier based on construction date
+        if (contractDate < new Date('1997-03-26')) {
+            let multiplier1997;
+            let multiplierNote;
+
+            switch (constructionPeriod) {
+                case 'before-1944':
+                    multiplier1997 = 8;
+                    multiplierNote = 'ثمانية أمثال الأجرة - أماكن منشأة قبل 1/1/1944';
+                    break;
+                case '1944-1961':
+                    multiplier1997 = 5;
+                    multiplierNote = 'خمسة أمثال الأجرة - أماكن منشأة من 1/1/1944 إلى 4/11/1961';
+                    break;
+                case '1961-1973':
+                    multiplier1997 = 4;
+                    multiplierNote = 'أربعة أمثال الأجرة - أماكن منشأة من 5/11/1961 إلى 6/10/1973';
+                    break;
+                case '1973-1977':
+                    multiplier1997 = 3;
+                    multiplierNote = 'ثلاثة أمثال الأجرة - أماكن منشأة من 7/10/1973 إلى 9/9/1977';
+                    break;
+                case 'after-1977':
+                    multiplier1997 = 1.1;  // ✅ تغيير من 1 إلى 1.1 (زيادة 10%)
+                    multiplierNote = 'زيادة 10% - أماكن منشأة من 10/9/1977 إلى 30/1/1996';
+                    break;
+            }
+
+            // Apply multiplier for all construction periods
+            const beforeMultiplier = currentRent;
+            currentRent *= multiplier1997;
+
+            increaseHistory.push({
+                year: '1997',
+                beforeIncrease: beforeMultiplier.toFixed(2),  // ✅ بدون تقريب
+                increasePercent: (multiplier1997 * 100).toFixed(0) + '%',
+                afterIncrease: currentRent.toFixed(2),  // ✅ بدون تقريب
+                notes: multiplierNote + ' - 26 مارس 1997 (قانون 6 لسنة 1997)'
+            });
+
+            // ✅ تطبيق زيادة 10% سنوياً لمدة 3 سنوات (1998-2000) للجميع
+            for (let year = 1998; year <= 2000; year++) {
+                const beforeAnnual = currentRent;
+                currentRent *= 1.10;
+
+                increaseHistory.push({
+                    year: year.toString(),
+                    beforeIncrease: beforeAnnual.toFixed(2),  // ✅ بدون تقريب
+                    increasePercent: '10%',
+                    afterIncrease: currentRent.toFixed(2),  // ✅ بدون تقريب
+                    notes: `زيادة سنوية 10% - 26 مارس ${year} (قانون 6 لسنة 1997)`
+                });
+            }
+        }
+
+        // Law 14 of 2001 (apply current annual increases)
+        let annualIncrease;
+        let note2001;
+        switch (constructionPeriod) {
+            case 'before-1944':
+            case '1944-1961':
+            case '1961-1973':
+            case '1973-1977':
+                annualIncrease = 0.02;
+                note2001 = 'زيادة سنوية 2% طبقاً للقانون 14 لسنة 2001';
+                break;
+            case 'after-1977':
+                annualIncrease = 0.01;
+                note2001 = 'زيادة سنوية 1% طبقاً للقانون 14 لسنة 2001';
+                break;
+        }
+
+        // Calculate years since 2001
+        if (currentDate >= new Date('2001-01-01')) {
+            // Calculate until 2024 only (2025 will be handled separately)
+            for (let year = 2001; year <= 2024; year++) {  // ✅ يتوقف عند 2024
+                const beforeAnnual = currentRent;
+                currentRent *= (1 + annualIncrease);
+
+                increaseHistory.push({
+                    year: year.toString(),
+                    beforeIncrease: beforeAnnual.toFixed(2),  // ✅ بدون تقريب، فقط عرض رقمين
+                    increasePercent: (annualIncrease * 100).toFixed(1) + '%',
+                    afterIncrease: currentRent.toFixed(2),  // ✅ بدون تقريب
+                    notes: note2001 + ' - سنة ' + year
+                });
+            }
+        }
+
+        // New law changes - Law 164 of 2025
+        // Apply same annual increase in April 2025 (1% or 2% based on construction period)
+        if (currentDate >= new Date('2025-04-01')) {
+            // Apply annual increase in April 2025 (before the 5x increase)
+            const before2025Increase = currentRent;
+            currentRent *= (1 + annualIncrease);  // ✅ يستخدم المتغير (1% أو 2%)
+
+            increaseHistory.push({
+                year: 'أبريل 2025',
+                beforeIncrease: before2025Increase.toFixed(2),
+                increasePercent: (annualIncrease * 100).toFixed(1) + '%',
+                afterIncrease: currentRent.toFixed(2),
+                notes: note2001 + ' - سنة 2025'  // ✅ نفس صيغة السنوات السابقة
+            });
+        }
+
+        // Then apply 5x increase from 1/9/2025
+        if (currentDate >= new Date('2025-09-01')) {
+            const before2025 = currentRent;
+            currentRent *= 5;
+
+            increaseHistory.push({
+                year: 'سبتمبر 2025',  // ✅ تغيير الاسم
+                beforeIncrease: before2025.toFixed(2),  // ✅ بدون تقريب
+                increasePercent: 'خماسية (×5)',  // ✅ أوضح من 400% أو 500%
+                afterIncrease: currentRent.toFixed(2),  // ✅ بدون تقريب
+                notes: 'زيادة خماسية - 1 سبتمبر 2025 (قانون 164 لسنة 2025)'
+            });
+
+            // Apply 15% annually for 5 years starting from 1/9/2026
+            if (currentDate >= new Date('2026-09-01')) {
+                for (let year = 2026; year <= 2030; year++) {
+                    const beforeAnnual = currentRent;
+                    currentRent *= 1.15;
+
+                    increaseHistory.push({
+                        year: year.toString(),
+                        beforeIncrease: beforeAnnual.toFixed(2),
+                        increasePercent: '15%',
+                        afterIncrease: currentRent.toFixed(2),
+                        notes: `زيادة سنوية 15% - 1 سبتمبر ${year} (قانون 164 لسنة 2025)`
+                    });
+                }
+            }
+        }  // ✅ نهاية if (currentDate >= new Date('2025-09-01'))
+
+        const results = {
+            originalRent: originalRent,
+            currentRent: Math.round(currentRent),
+            constructionPeriod: getConstructionPeriodName(constructionPeriod),
+            increaseHistory: increaseHistory,
+            notes: notes
+        };
+
+        displayCommercialResults(results);
+
+        // Restore button state
+        button.innerHTML = originalText;
+        button.disabled = false;
+    }, 500);  // ✅ نهاية setTimeout
+}  // ✅ نهاية function calculateCommercialRent()
+
+// Helper Functions
+function getConstructionPeriodName(period) {
+    const names = {
+        'before-1944': 'قبل 1/1/1944',
+        '1944-1961': 'من 1/1/1944 إلى 4/11/1961',
+        '1961-1973': 'من 5/11/1961 إلى 6/10/1973',
+        '1973-1977': 'من 7/10/1973 إلى 9/9/1977',
+        'after-1977': 'من 10/9/1977 إلى 30/1/1996'
+    };
+    return names[period];
+}
+
+function displayResidentialResults(results) {
+    const resultDiv = document.getElementById('residential-result');
+    const contentDiv = document.getElementById('residential-result-content');
+
+    contentDiv.innerHTML = `
+        <div class="result-section">
+            <h5 class="text-success mb-3">
+                <i class="fas fa-calculator me-2"></i>
+                نتائج حساب الإيجار السكني
+            </h5>
+            
+            <div class="result-item">
+                <strong>قيمة الإيجار الأصلية:</strong> ${results.originalRent.toLocaleString()} جنيه
+            </div>
+            <div class="result-item">
+                <strong>الفئة:</strong> ${results.category}
+            </div>
+            <div class="result-item">
+                <strong>معامل الزيادة:</strong> ${results.multiplier} أضعاف
+            </div>
+            <div class="result-item">
+                <strong>الحد الأدنى للفئة:</strong> ${results.minRent.toLocaleString()} جنيه
+            </div>
+            <div class="result-item">
+                <strong>الإيجار بعد تطبيق المعامل:</strong> ${(results.originalRent * results.multiplier).toLocaleString()} جنيه
+            </div>
+            <div class="result-item">
+                <strong>الإيجار الأساسي (بعد تطبيق الحد الأدنى):</strong> ${results.baseRent.toLocaleString()} جنيه
+            </div>
+            <div class="result-item total">
+                <i class="fas fa-money-bill-wave me-2"></i>
+                <strong>الإيجار النهائي الشهري:</strong> ${results.currentRent.toLocaleString()} جنيه
+            </div>
+            ${results.notes ? `
+            <div class="result-item">
+                <strong>الملاحظات:</strong> ${results.notes}
+            </div>
+            ` : ''}
+        </div>
+    `;
+
+    resultDiv.classList.remove('d-none');
+    resultDiv.scrollIntoView({ behavior: 'smooth' });
+}
+
+function displayCommercialResults(results) {
+    const resultDiv = document.getElementById('commercial-result');
+    const contentDiv = document.getElementById('commercial-result-content');
+
+    contentDiv.innerHTML = `
+        <div class="result-section">
+            <h5 class="text-warning mb-3">
+                <i class="fas fa-calculator me-2"></i>
+                نتائج حساب الإيجار التجاري
+            </h5>
+            
+            <div class="result-item">
+                <strong>قيمة الإيجار الأصلية:</strong> ${results.originalRent.toLocaleString()} جنيه
+            </div>
+            <div class="result-item">
+                <strong>تاريخ إنشاء العقار:</strong> ${results.constructionPeriod}
+            </div>
+            <div class="result-item total">
+                <i class="fas fa-money-bill-wave me-2"></i>
+                <strong>الإيجار النهائي الشهري:</strong> ${results.currentRent.toLocaleString()} جنيه
+            </div>
+            ${results.notes ? `
+            <div class="result-item">
+                <strong>الملاحظات:</strong> ${results.notes}
+            </div>
+            ` : ''}
+        </div>
+        
+        <div class="table-container mt-4">
+            <h6 class="text-primary mb-3">
+                <i class="fas fa-table me-2"></i>
+                جدول الزيادات التفصيلي
+            </h6>
+            <div class="table-responsive">
+                <table class="table table-striped table-hover">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>السنة</th>
+                            <th>القيمة قبل الزيادة</th>
+                            <th>نسبة الزيادة</th>
+                            <th>القيمة بعد الزيادة</th>
+                            <th>الملاحظات</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${generateCommercialIncreasesTable(results.increaseHistory)}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="alert alert-info mt-3">
+            <h6><i class="fas fa-info-circle me-2"></i>ملاحظات هامة:</h6>
+            <ul class="mb-0">
+                <li>تم تطبيق قوانين 6 لسنة 1997، 14 لسنة 2001، و164 لسنة 2025</li>
+                <li>قانون 6/1997: أول أجرة مستحقة بعد 26/3/1997 - أضعال حسب تاريخ الإنشاء، وزيادة 10% سنوياً لمدة 3 سنوات (1998-2000) تبدأ من 26 مارس</li>
+                <li>قانون 14/2001: زيادة سنوية 1% أو 2% حسب تاريخ إنشاء العقار ابتداءً من 2001</li>
+                <li>قانون 164/2025: زيادة 2% في أبريل 2025، زيادة خماسية في سبتمبر 2025، زيادة 15% سنوياً من سبتمبر 2026</li>
+                <li>ينتهي عقد الإيجار بعد 5 سنوات من تاريخ الزيادة</li>
+            </ul>
+        </div>
+    `;
+
+    resultDiv.classList.remove('d-none');
+    resultDiv.scrollIntoView({ behavior: 'smooth' });
+}
+
+function generateCommercialIncreasesTable(increaseHistory) {
+    if (!increaseHistory || increaseHistory.length === 0) {
+        return '<tr><td colspan="5" class="text-center">لا توجد زيادات لعرضها</td></tr>';
+    }
+
+    return increaseHistory.map(increase => {
+        return `
+            <tr>
+                <td>${increase.year}</td>
+                <td>${increase.beforeIncrease}</td>
+                <td>${increase.increasePercent}</td>
+                <td>${increase.afterIncrease}</td>
+                <td><small>${increase.notes}</small></td>
+            </tr>
+        `;
+    }).join('');
+}
+
+// Event Listeners
+document.addEventListener('DOMContentLoaded', function () {
+    // Residential form submission
+    document.getElementById('residential-form').addEventListener('submit', function (e) {
+        e.preventDefault();
+        calculateResidentialRent();
+    });
+
+    // Commercial form submission
+    document.getElementById('commercial-form').addEventListener('submit', function (e) {
+        e.preventDefault();
+        calculateCommercialRent();
+    });
+
+    // Set maximum dates
+    const today = new Date().toISOString().split('T')[0];
+    document.getElementById('residential-date').max = '1996-01-30';
+    document.getElementById('contract-date').max = '1996-01-30';
+});
